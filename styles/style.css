@@ -126,6 +126,10 @@ nav>ul>li>a {
     margin-bottom: 10px;
 }
 /* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about */
 .about{
     padding: 130px;
@@ -141,5 +145,10 @@ font-style: normal;
 font-weight: 700;
 }
 .bp2{
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
     text-align: center;
 }
